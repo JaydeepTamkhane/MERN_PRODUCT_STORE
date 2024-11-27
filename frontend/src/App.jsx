@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
-import CreateProduct from "./Components/CreateProduct";
-import UpdateProduct from "./Components/UpdateProduct";
+import CreateProduct from "./components/CreateProduct";
+import UpdateProduct from "./components/UpdateProduct";
 import { ProductProvider } from "./context/Store"; // Import ProductProvider
 
 function App() {
