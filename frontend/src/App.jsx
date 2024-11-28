@@ -7,7 +7,9 @@ import { ProductProvider } from "./context/Store"; // Import ProductProvider
 
 function App() {
   return (
-    <ProductProvider> {/* Wrap your app in ProductProvider */}
+    <ProductProvider>
+      {" "}
+      {/* Wrap your app in ProductProvider */}
       <Router>
         {/* Navigation Bar */}
         <nav className="p-4 text-white bg-gray-800">
@@ -21,7 +23,7 @@ function App() {
             <div className="space-x-4">
               <Link
                 to="/create"
-                className="transition duration-300 hover:text-gray-400"
+                className="px-4 py-2 text-gray-300 transition duration-300 bg-gray-700 rounded hover:bg-gray-600 hover:text-white"
               >
                 Add Product
               </Link>
